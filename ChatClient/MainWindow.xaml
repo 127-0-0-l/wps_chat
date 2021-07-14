@@ -1,0 +1,20 @@
+﻿<Window x:Class="ChatClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChatClient"
+        mc:Ignorable="d"
+        Title="Main Window" Height="351.5" Width="476" Closing="Window_Colsing" WindowStyle="ToolWindow" ResizeMode="NoResize">
+    <Grid Margin="0,0,2,2">
+        <Button x:Name="bConDiscon" Click="Button_Click" Content="Connect" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="130" FontSize="14" FontFamily="Century Gothic"/>
+        <TextBox x:Name="tbUserName" HorizontalAlignment="Left" Height="23" Margin="146,10,0,0" TextWrapping="Wrap" Text="user name" VerticalAlignment="Top" Width="310" MaxLength="20" FontSize="14" FontFamily="Century Gothic"/>
+        <TextBox x:Name="tbMessage" HorizontalAlignment="Left" Height="59" Margin="10,246,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="446" KeyDown="tbMessage_KeyDown" FontSize="14" FontFamily="Century Gothic"/>
+        <RichTextBox x:Name="rtbChat" HorizontalAlignment="Left" Height="203" Margin="10,38,0,0" VerticalAlignment="Top" Width="446" FontFamily="Century Gothic" AllowDrop="False" IsReadOnly="True" IsUndoEnabled="False" VerticalScrollBarVisibility="Visible" FontSize="14">
+            <FlowDocument>
+                <Paragraph/>
+            </FlowDocument>
+        </RichTextBox>
+
+    </Grid>
+</Window>

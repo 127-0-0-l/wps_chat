@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wps_chat", "wps_chat\wps_chat.csproj", "{8C93D64C-4D34-4DBF-91A1-6FA5ACDFA1A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatHost", "ChatHost\ChatHost.csproj", "{17FEFF61-ACE5-4D87-B510-78CA4A405ABB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatClient", "ChatClient\ChatClient.csproj", "{D36DD202-24B4-4199-A460-DE5E587310EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C93D64C-4D34-4DBF-91A1-6FA5ACDFA1A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C93D64C-4D34-4DBF-91A1-6FA5ACDFA1A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C93D64C-4D34-4DBF-91A1-6FA5ACDFA1A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C93D64C-4D34-4DBF-91A1-6FA5ACDFA1A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17FEFF61-ACE5-4D87-B510-78CA4A405ABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17FEFF61-ACE5-4D87-B510-78CA4A405ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17FEFF61-ACE5-4D87-B510-78CA4A405ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17FEFF61-ACE5-4D87-B510-78CA4A405ABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D36DD202-24B4-4199-A460-DE5E587310EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D36DD202-24B4-4199-A460-DE5E587310EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D36DD202-24B4-4199-A460-DE5E587310EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D36DD202-24B4-4199-A460-DE5E587310EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {552A874C-0231-42AC-B6CD-71E8551814AC}
+	EndGlobalSection
+EndGlobal
